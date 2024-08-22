@@ -60,41 +60,37 @@ color: white;
 
 #main{
     background-color: rgb(241, 241, 241);
-    padding: 25px;
+    
 }
 #tudo{
-    width: 82%;
+   width: 75%;
+    margin: 0px auto;
+    padding: 10px ;
     
-    margin: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    
 }
 #float{
+    width: 25% ;
     float: right;
-   
+  
 }
-.rec{
-    
-}
+
 .quadrado{
     background-color: white;
-    width: 290px;
-    height: 210px;
-   margin-top: 10px;
+    width: 90%;
+    height: 80%;
+    margin-bottom: 20px;
     font-size: 0.56em;
     display: flex;
     justify-content: center;
     align-items: start; 
     flex-direction: column;
     font-weight: 500;
-    
-    padding: 0px 15px ;
+    padding: 10px  ;
 }
 #hr{
     width: 100%;
-   
-    padding: 0.5px 0px;
+
 }
 
 .quadrado a{
@@ -111,10 +107,11 @@ color: white;
     padding-left: 5px;
 }
 #post{
-    width: 75%;
+    width: 70%;
     background-color: white;
     padding: 10px;
     text-align: justify;
+    float: left;
     
 }
 .postagem{
@@ -125,4 +122,11 @@ color: white;
 }
 .postagem h1, a, p, img{
     padding: 10px;
+}
+#rodape{
+    font-size: 0.5em;
+    clear: both;
+    width: 71.5%;
+    background-color: #F2CC0C;
+    text-align: center;
 }
