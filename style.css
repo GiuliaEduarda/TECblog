@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+
+}
+header{
+    background-color: #F2CC0C;
+    
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 15px 0px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+#tec{
+    display:flex ;
+    flex-direction: row;
+    font-size: 1.4em;
+    
+}
+#branco{
+color: white;
+}
+#menu{ 
+    
+    
+}
+#lista{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.li{ list-style: none;
+    margin: 15px;
+    font-weight: 600;
+    
+}
+#lista a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#lista a:hover{
+    color: #F2CC0C;
+    background-color: #fff;
+}
+   
+
+
+/* fim da navbar */
+
+
+#main{
+    background-color: rgb(241, 241, 241);
+    padding: 25px;
+}
+#tudo{
+    width: 82%;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#float{
+    float: right;
+   
+}
+.rec{
+    
+}
+.quadrado{
+    background-color: white;
+    width: 290px;
+    height: 210px;
+   margin-top: 10px;
+    font-size: 0.56em;
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+    flex-direction: column;
+    font-weight: 500;
+    
+    padding: 0px 15px ;
+}
+#hr{
+    width: 100%;
+   
+    padding: 0.5px 0px;
+}
+
+.quadrado a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #F2CC0C ;
+    font-weight: 500;
+    padding: 3px 0px;
+}
+.titulo{
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    color: rgb(92, 92, 92);
+    padding-left: 5px;
+}
+#post{
+    width: 75%;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    
+}
+.postagem{
+    padding: 20px;
+}
+.postagem a{
+    color: #F2CC0C;
+}
+.postagem h1, a, p, img{
+    padding: 10px;
+}
